@@ -21,6 +21,7 @@ li a {
 
 ul li {
     display: inline;
+    margin: 5px;
     list-style: none;
 }
 
@@ -41,6 +42,59 @@ nav {
 .box-header {
     display: inline-block;
 }
+
+.logo-square {
+    width: 100px;
+}
+
+.logo-square img {
+    width: 100%;
+}
+
+section {
+    text-align: center;
+}
+
+div {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 2px;
+    width: 33%;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-size: 50px;
+}
+
+li:hover, [class^="icon-"]:hover, [class*=" icon-"]:hover {
+    color: #db963a;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #303030;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+ footer p {
+    color: white;
+ }
+
+ .middle-button {
+     box-sizing: border-box;
+     background-color: #db963a;
+     padding: 15px;
+     font-weight: bold;
+     color: white;
+     border-radius: 31px 31px 31px 31px;
+     -moz-border-radius: 31px 31px 31px 31px;
+     -webkit-border-radius: 31px 31px 31px 31px;
+     border: 0px solid #000000;
+
+ }
+
 
 
 
